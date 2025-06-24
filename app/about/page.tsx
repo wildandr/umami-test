@@ -1,9 +1,9 @@
-export default function Home() {
+export default function About() {
          return (
            <div>
-             <h1>Welcome to the Home Page</h1>
-             <p>This is a test page for Umami analytics.</p>
-             <a href="/about">Go to About Page</a>
+             <h1>About Us</h1>
+             <p>This is the About page for testing Umami analytics.</p>
+             <a href="/">Back to Home</a>
            </div>
          );
        }
