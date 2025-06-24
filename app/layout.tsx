@@ -5,7 +5,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
              <title>Umami Test App</title>
              <script
                async
-               src="/stats/script.js"
+               src="https://umami-sigma-ashen.vercel.app/script.js"
                data-website-id="da65ca9a-9b68-45ca-a2de-498cd2b4dd66"
              ></script>
            </head>
