@@ -2,7 +2,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
        return (
          <html lang="en">
            <head>
-             <title>Umami Test App</title>
+             <title>Umami Test  App</title>
              <script
                async
                src="https://umami-sigma-ashen.vercel.app/script.js"
