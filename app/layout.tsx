@@ -11,7 +11,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                data-website-id="da65ca9a-9b68-45ca-a2de-498cd2b4dd66"
              ></script>
            </head>
-           <body>{children}</body>
+           <body>
+             {children}
+             <Analytics />
+           </body>
          </html>
        );
      }
